@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    background-color: grey;
+    margin: auto;
+    width: 80vw;
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(255, 255, 255)
+}
+
+table{
+    width: 100%;
+    height: 100%;
+}
+
+td{
+   width: 25%;
+   text-align: center;
+}
+
+.headerL{
+    background-color: rgb(0, 104, 71);
+    width: 33%;
+    height: 15%;
+    text-align: center;
+}
+
+.headerM{
+    background-color: white;
+    width: 33%;
+    height: 15%;
+    text-align: center;
+}
+
+.headerR{
+    background-color: rgb(206, 17, 38);
+    width: 33%;
+    height: 15%;
+    text-align: center;
+}
+
+td img{
+    width: 150px;
+}
+
+body{
+    background-color: black;
+}
+
+.path{
+    height: 10%;
+}
+
+.pathT{
+    background-color: aquamarine;
+    height: 63px;
+}
+
+.pathD{
+    font-size: x-large;
+}
+
+.menu{
+    font-size: xx-large;
+}
+
+.menu img{
+    margin: 5% 5% 5% 5%;
+    width: 40%;
+    vertical-align: middle;
+}
+
+#dockright{
+    float: right;
+    width: 50%;
+}
+
+.local{
+    float: left;
+    width: 50%;
+}
+
+.local img{
+    margin: 5% 5% 5% 5%;
+    width: 80%;
+    border: 10px solid black;
+    border-radius: 100px;
+}
+
+.direc{
+    margin-top: 500px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.texto{
+    margin: 15px 200px 15px 15px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.texto p{
+    font-size: 50px;
+}
+
+#mainleft{
+    float: left;
+    width: 50%;
+    height: 72%;
+    background-color: rgb(46, 141, 109);
+}
+
+#mainright{
+    float: right;
+    width: 50%;
+    height: 72%;
+    background-color: blueviolet;
+}
+
+#mainright img{
+    width: 500px 0px 0px 500px;
+    margin: 110px;
+    border: 5px solid black;
+    border-radius: 500px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(0, 104, 71);
+}
